@@ -1,0 +1,14 @@
+{
+    "name": "$name",
+    "description": "$description",
+    "memory": 128,
+    "timeout": 5,
+    "role": "$role",
+    "handler": "lib.default",
+    "environment": {},
+    "runtime": "nodejs4.3",
+    "hooks": {
+        "build": "../../node_modules/.bin/webpack --config ../../webpack.config.js",
+        "clean": "rm -rf lib"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": [
+            "es2016",
+            "dom" // for: console, fetch
+        ],
+        "strictNullChecks": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
